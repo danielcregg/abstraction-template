@@ -1,9 +1,19 @@
-# inheritance-template
+# Abstraction
+
 Gitpod URL prefix: https://gitpod.io/#
 
-Step 1. Add 2 instance variables along with their getter and setters methods to the Animal class. Use appropriate access modifiers.  
-Step 2. Add 1 instance variable along with it's getter and setter method to the Cat class and to the Dog class.  
-Step 3. Inside the Main class, add the main method.
-Step 4. Create a Cat object and a Dog object. Set all their instance variables and then print their values to the console.   
-Step 5. Add constructors to the Animal, Cat and Dog classes.  
-Step 6. Add, Commit and Push your code to your GitHub repository.  
+In Object-oriented programming, abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it. 
+
+Abstraction is the quality of dealing with ideas rather than events. For example, when you consider the case of e-mail, complex details such as what happens as soon as you send an e-mail, the protocol your e-mail server uses are hidden from the user. Therefore, to send an e-mail you just need to type the content, mention the address of the receiver, and click send. 
+
+1. Create an abstract class called AbstractClass 
+2. Add an instance variable called age 
+3. Add a constructor with one input parameter that sets age 
+4. Write a getter and setter for the age variable
+5. Add an abstract method called returnPi()
+6. Create a regular non-abstract class (i.e. a concrete class) called AbstractClassDriver
+7. Try to instantiate an object of type AbstractClass inside AbstractClassDriver. What happened?
+8. Create a regular non-abstract class (i.e. a concrete class) called AbstractSubClass that extents AbstractClass 
+9. Add a constructor that sets the age variable in the super class.
+10. Implement the returnPi() method. It will return 3.14 to the console. 
+11. Create a driver class called AbstractClassDriver that calls the methods inside AbstractSubClass .  
