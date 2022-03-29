@@ -16,8 +16,7 @@ Abstraction is the quality of dealing with ideas rather than events. For examp
 8. Create a regular non-abstract class (i.e. a concrete class) called AbstractSubClass that extents AbstractClass 
 9. Add a constructor that sets the age variable in the super class.
 10. Implement the returnPi() method. It will return 3.14 to the console. 
-11. Create a driver class called AbstractClassDriver that calls the methods inside AbstractSubClass .  
-
+11. Create a driver class called AbstractClassDriver that calls the methods inside AbstractSubClass.
 
 1. Create an abstract class called Employee 
 2. Every employee will have a name, address, age and salary. Create variables for these. 
